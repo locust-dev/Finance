@@ -14,6 +14,8 @@
 		E93C332325CC5BAA00FCF1F2 /* Finance.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E93C332125CC5BAA00FCF1F2 /* Finance.xcdatamodeld */; };
 		E93C332525CC5BAB00FCF1F2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E93C332425CC5BAB00FCF1F2 /* Assets.xcassets */; };
 		E93C332825CC5BAB00FCF1F2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E93C332625CC5BAB00FCF1F2 /* LaunchScreen.storyboard */; };
+		E93C333125CC5DC300FCF1F2 /* VC_add.swift in Sources */ = {isa = PBXBuildFile; fileRef = E93C333025CC5DC300FCF1F2 /* VC_add.swift */; };
+		E93C333425CC5FF500FCF1F2 /* VC_category.swift in Sources */ = {isa = PBXBuildFile; fileRef = E93C333325CC5FF500FCF1F2 /* VC_category.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		E93C332425CC5BAB00FCF1F2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E93C332725CC5BAB00FCF1F2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E93C332925CC5BAB00FCF1F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E93C333025CC5DC300FCF1F2 /* VC_add.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VC_add.swift; sourceTree = "<group>"; };
+		E93C333325CC5FF500FCF1F2 /* VC_category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VC_category.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +65,8 @@
 				E93C331825CC5BAA00FCF1F2 /* AppDelegate.swift */,
 				E93C331A25CC5BAA00FCF1F2 /* SceneDelegate.swift */,
 				E93C331C25CC5BAA00FCF1F2 /* ViewController.swift */,
+				E93C333025CC5DC300FCF1F2 /* VC_add.swift */,
+				E93C333325CC5FF500FCF1F2 /* VC_category.swift */,
 				E93C331E25CC5BAA00FCF1F2 /* Main.storyboard */,
 				E93C332425CC5BAB00FCF1F2 /* Assets.xcassets */,
 				E93C332625CC5BAB00FCF1F2 /* LaunchScreen.storyboard */,
@@ -142,7 +148,9 @@
 			files = (
 				E93C332325CC5BAA00FCF1F2 /* Finance.xcdatamodeld in Sources */,
 				E93C331D25CC5BAA00FCF1F2 /* ViewController.swift in Sources */,
+				E93C333425CC5FF500FCF1F2 /* VC_category.swift in Sources */,
 				E93C331925CC5BAA00FCF1F2 /* AppDelegate.swift in Sources */,
+				E93C333125CC5DC300FCF1F2 /* VC_add.swift in Sources */,
 				E93C331B25CC5BAA00FCF1F2 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

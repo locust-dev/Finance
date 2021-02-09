@@ -9,20 +9,21 @@
 /* Begin PBXBuildFile section */
 		E93C331925CC5BAA00FCF1F2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E93C331825CC5BAA00FCF1F2 /* AppDelegate.swift */; };
 		E93C331B25CC5BAA00FCF1F2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E93C331A25CC5BAA00FCF1F2 /* SceneDelegate.swift */; };
-		E93C331D25CC5BAA00FCF1F2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E93C331C25CC5BAA00FCF1F2 /* ViewController.swift */; };
 		E93C332025CC5BAA00FCF1F2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E93C331E25CC5BAA00FCF1F2 /* Main.storyboard */; };
 		E93C332325CC5BAA00FCF1F2 /* Finance.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E93C332125CC5BAA00FCF1F2 /* Finance.xcdatamodeld */; };
 		E93C332525CC5BAB00FCF1F2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E93C332425CC5BAB00FCF1F2 /* Assets.xcassets */; };
 		E93C332825CC5BAB00FCF1F2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E93C332625CC5BAB00FCF1F2 /* LaunchScreen.storyboard */; };
 		E93C333125CC5DC300FCF1F2 /* VC_add.swift in Sources */ = {isa = PBXBuildFile; fileRef = E93C333025CC5DC300FCF1F2 /* VC_add.swift */; };
 		E93C333425CC5FF500FCF1F2 /* VC_category.swift in Sources */ = {isa = PBXBuildFile; fileRef = E93C333325CC5FF500FCF1F2 /* VC_category.swift */; };
+		E968E80E25D17CA7004845B5 /* VC_Table.swift in Sources */ = {isa = PBXBuildFile; fileRef = E968E80D25D17CA7004845B5 /* VC_Table.swift */; };
+		E968E81225D18403004845B5 /* MainTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E968E81125D18403004845B5 /* MainTableCell.swift */; };
+		E968E81625D1871A004845B5 /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E968E81525D1871A004845B5 /* DataModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		E93C331525CC5BAA00FCF1F2 /* Finance.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Finance.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E93C331825CC5BAA00FCF1F2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E93C331A25CC5BAA00FCF1F2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		E93C331C25CC5BAA00FCF1F2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		E93C331F25CC5BAA00FCF1F2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E93C332225CC5BAA00FCF1F2 /* Finance.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Finance.xcdatamodel; sourceTree = "<group>"; };
 		E93C332425CC5BAB00FCF1F2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -30,6 +31,9 @@
 		E93C332925CC5BAB00FCF1F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E93C333025CC5DC300FCF1F2 /* VC_add.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VC_add.swift; sourceTree = "<group>"; };
 		E93C333325CC5FF500FCF1F2 /* VC_category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VC_category.swift; sourceTree = "<group>"; };
+		E968E80D25D17CA7004845B5 /* VC_Table.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VC_Table.swift; sourceTree = "<group>"; };
+		E968E81125D18403004845B5 /* MainTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTableCell.swift; sourceTree = "<group>"; };
+		E968E81525D1871A004845B5 /* DataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,9 +68,11 @@
 			children = (
 				E93C331825CC5BAA00FCF1F2 /* AppDelegate.swift */,
 				E93C331A25CC5BAA00FCF1F2 /* SceneDelegate.swift */,
-				E93C331C25CC5BAA00FCF1F2 /* ViewController.swift */,
+				E968E81525D1871A004845B5 /* DataModel.swift */,
+				E968E80D25D17CA7004845B5 /* VC_Table.swift */,
 				E93C333025CC5DC300FCF1F2 /* VC_add.swift */,
 				E93C333325CC5FF500FCF1F2 /* VC_category.swift */,
+				E968E81125D18403004845B5 /* MainTableCell.swift */,
 				E93C331E25CC5BAA00FCF1F2 /* Main.storyboard */,
 				E93C332425CC5BAB00FCF1F2 /* Assets.xcassets */,
 				E93C332625CC5BAB00FCF1F2 /* LaunchScreen.storyboard */,
@@ -146,10 +152,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E968E81225D18403004845B5 /* MainTableCell.swift in Sources */,
 				E93C332325CC5BAA00FCF1F2 /* Finance.xcdatamodeld in Sources */,
-				E93C331D25CC5BAA00FCF1F2 /* ViewController.swift in Sources */,
 				E93C333425CC5FF500FCF1F2 /* VC_category.swift in Sources */,
 				E93C331925CC5BAA00FCF1F2 /* AppDelegate.swift in Sources */,
+				E968E80E25D17CA7004845B5 /* VC_Table.swift in Sources */,
+				E968E81625D1871A004845B5 /* DataModel.swift in Sources */,
 				E93C333125CC5DC300FCF1F2 /* VC_add.swift in Sources */,
 				E93C331B25CC5BAA00FCF1F2 /* SceneDelegate.swift in Sources */,
 			);
@@ -301,6 +309,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = UHQ7TS5P9H;
 				INFOPLIST_FILE = Finance/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -320,6 +329,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = UHQ7TS5P9H;
 				INFOPLIST_FILE = Finance/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

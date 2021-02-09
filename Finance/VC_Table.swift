@@ -4,10 +4,13 @@
 //
 //  Created by Илья Тюрин on 08.02.2021.
 //
-
+import SideMenu
 import UIKit
 
 class VC_Table: UITableViewController {
+    
+    
+    var menu: SideMenuNavigationController?
     
     ///Сделали массив категорий который будет использоваться в главной таблице, данные берем из структуры данных expenses
     var objects = [
@@ -18,14 +21,27 @@ class VC_Table: UITableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        ///Заголовок
         self.title = "Траты"
         
-        ///Кнопка edit
+        ///Настройка Side Menu
+        menu = SideMenuNavigationController(rootViewController: RightMenuClass())
+        
+        SideMenuManager.default.rightMenuNavigationController = menu
+        SideMenuManager.default.addPanGestureToPresent(toView: self.view)
+        
+        ///Кнопка edit (появляется слева)
         self.navigationItem.leftBarButtonItem = self.editButtonItem
         self.editButtonItem.title = "Ред."
         self.editButtonItem.tintColor = UIColor.orange
         
+        ///Размер строк
         tableView.rowHeight = 75
+    }
+    
+    ///Задаем акшион для кнопки меню
+    @IBAction func didTapMenu() {
+        present(menu!, animated: true)
     }
     
     ///Достаем обьекты с последнего вью

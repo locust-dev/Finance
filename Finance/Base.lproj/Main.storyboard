@@ -43,7 +43,7 @@
                                                             <nil key="textColor"/>
                                                             <nil key="highlightedColor"/>
                                                         </label>
-                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="33 рубля" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nEg-gI-Dka">
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1500" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nEg-gI-Dka">
                                                             <rect key="frame" x="0.0" y="32.5" width="349" height="32.5"/>
                                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                             <nil key="textColor"/>
@@ -74,14 +74,24 @@
                             <outlet property="delegate" destination="tGv-Jb-aW0" id="mSW-C9-4MN"/>
                         </connections>
                     </tableView>
+                    <toolbarItems/>
                     <navigationItem key="navigationItem" id="K5r-1a-mkV">
-                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="xNz-GI-fLK">
-                            <color key="tintColor" systemColor="systemOrangeColor"/>
-                            <connections>
-                                <segue destination="3Ln-6k-NXo" kind="presentation" id="oAy-5V-8vU"/>
-                            </connections>
-                        </barButtonItem>
+                        <rightBarButtonItems>
+                            <barButtonItem title="Меню" id="d1W-TK-RwC">
+                                <color key="tintColor" systemColor="systemOrangeColor"/>
+                                <connections>
+                                    <action selector="didTapMenu" destination="tGv-Jb-aW0" id="twY-Gb-SVa"/>
+                                </connections>
+                            </barButtonItem>
+                            <barButtonItem systemItem="add" id="xNz-GI-fLK">
+                                <color key="tintColor" systemColor="systemOrangeColor"/>
+                                <connections>
+                                    <segue destination="3Ln-6k-NXo" kind="presentation" id="oAy-5V-8vU"/>
+                                </connections>
+                            </barButtonItem>
+                        </rightBarButtonItems>
                     </navigationItem>
+                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0JX-6v-rgT" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -151,7 +161,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="brL-Ud-Xe5" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1005.7971014492755" y="-74.330357142857139"/>
+            <point key="canvasLocation" x="1526" y="-526"/>
         </scene>
         <!--category-->
         <scene sceneID="lWI-LV-1UU">
@@ -238,7 +248,7 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="aVC-9E-3uo" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <exit id="GK1-FS-TMX" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
-            <point key="canvasLocation" x="1711.5942028985507" y="-74.330357142857139"/>
+            <point key="canvasLocation" x="2274" y="-526"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="EdR-d1-k6Q">
